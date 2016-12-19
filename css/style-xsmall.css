@@ -6,10 +6,6 @@
 
 /* Basic */
 
-        body {
-                display: block !important;
-        }
-
 	html, body {
 		min-width: 320px;
 	}

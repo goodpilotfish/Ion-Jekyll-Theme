@@ -12,10 +12,6 @@
 
 /* Container */
 
-        body {
-                display: block !important;
-        }
-
 	body {
 		/* min-width: (containers) */
 		min-width: 1200px;
