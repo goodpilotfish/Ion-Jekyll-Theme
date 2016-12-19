@@ -12,6 +12,7 @@
 
 	body {
 		background: #fff;
+                display: block !important;
 	}
 
 	body, input, select, textarea {
