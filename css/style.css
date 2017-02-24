@@ -856,7 +856,7 @@
 		}
 
 		.wrapper.style2 {
-			background: #192024;
+			background: #a70932;
 			color: #c5c7c8;
 		}
 
@@ -986,13 +986,24 @@
 
 /* Banner */
 
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
+
+  /* Remove logo for smaller screens */
+  @media screen and (max-width: 1175px) {
+    .logo { display: none; }
+  }
+
 	#banner {
-		background-color: #192024;
-		/*background-image: url("../images/bbo-banner.jpg");*/
+		/*background-color: #192024;*/
+		background-image: url("../images/BBO-Titelbild.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat;
-		color: #d8d8d8;
+		color: #a70932;
 		padding: 14em 0;
 		text-align: center;
 		position: relative;
@@ -1018,7 +1029,8 @@
 			}
 
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: #ffffff;
+			color: #a70932;
+      font-weight: bold;
 		}
 
 		#banner .button.alt {
