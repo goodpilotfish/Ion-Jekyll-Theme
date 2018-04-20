@@ -10,7 +10,7 @@
 
 /* Custom */
 
-.display-concerts > span {
+.display-concerts > p > span {
 	display: block;
 }
 
